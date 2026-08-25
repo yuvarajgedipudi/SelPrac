@@ -5,8 +5,15 @@ import org.testng.annotations.Test;
 public class LoginTest {
 
     @Test
-    public void loginTest() {
-        System.out.println("My first TestNG test");
+    public void loginTestone() {
+
+        System.out.println("My first TestNG test  111");
+    }
+
+    @Test
+    public void loginTesttwo() {
+
+        System.out.println("My first TestNG test 222");
     }
 
 
