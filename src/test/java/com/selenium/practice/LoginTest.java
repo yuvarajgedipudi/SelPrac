@@ -7,7 +7,7 @@ public class LoginTest {
     @Test(priority = 1)
     public void loginTestone() {
 
-        System.out.println("My first TestNG test  111");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\Yuvar\\IdeaProjects\\Chromedriver\\chromedriver-win32");
     }
 
     @Test(priority = 2)
